@@ -1,0 +1,10 @@
+interface:
+  display_name: "CodeGraph Guide"
+  short_description: "Use CodeGraph MCP for codebase tracing and impact analysis."
+  default_prompt: "Use $codegraph-guide to inspect CodeGraph setup, initialize the project index, and guide codebase exploration."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "codegraph"
+      description: "CodeGraph MCP server for code knowledge graph queries."
