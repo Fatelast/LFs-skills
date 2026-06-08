@@ -20,6 +20,14 @@
 | `find-skills` | 帮助 Agent 发现、筛选并安装适合当前任务的新 skills | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path find-skills` |
 | `codegraph-guide` | 指导 Codex 配置和使用 CodeGraph MCP 进行代码索引、调用链追踪和影响分析 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path codegraph-guide` |
 | `project-context-manager` | 管理跨会话项目上下文文档，帮助 Codex 维护 AGENTS.md 和 docs/codex 交接资料 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path project-context-manager` |
+| `gsap-core` | 使用 GSAP 核心 API 编写基础 tween、缓动、stagger、响应式和 reduced-motion 动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-core` |
+| `gsap-timeline` | 编排多步骤动画、时间线、label、嵌套 timeline 和播放控制 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-timeline` |
+| `gsap-scrolltrigger` | 实现 ScrollTrigger 滚动触发、pin、scrub、视差和横向滚动动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-scrolltrigger` |
+| `gsap-plugins` | 使用 GSAP 插件，如 Flip、Draggable、SplitText、MorphSVG、DrawSVG、ScrollTo 和 MotionPath | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-plugins` |
+| `gsap-utils` | 使用 gsap.utils 进行 clamp、mapRange、normalize、random、snap、toArray、wrap 等辅助处理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-utils` |
+| `gsap-react` | 在 React / Next.js 中使用 GSAP，处理 useGSAP、refs、作用域和卸载清理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-react` |
+| `gsap-performance` | 优化 GSAP 动画性能，减少卡顿、布局抖动和不必要的重绘 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-performance` |
+| `gsap-frameworks` | 在 Vue、Nuxt、Svelte、SvelteKit 等非 React 框架中使用 GSAP 并处理生命周期清理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-frameworks` |
 
 ## 目录结构
 
@@ -49,6 +57,22 @@ My-Skill-Project/
     SKILL.md
     agents/
       openai.yaml
+  gsap-core/
+    SKILL.md
+  gsap-frameworks/
+    SKILL.md
+  gsap-performance/
+    SKILL.md
+  gsap-plugins/
+    SKILL.md
+  gsap-react/
+    SKILL.md
+  gsap-scrolltrigger/
+    SKILL.md
+  gsap-timeline/
+    SKILL.md
+  gsap-utils/
+    SKILL.md
 ```
 
 ## 使用方式
