@@ -20,6 +20,7 @@
 | `find-skills` | 帮助 Agent 发现、筛选并安装适合当前任务的新 skills | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path find-skills` |
 | `codegraph-guide` | 指导 Codex 配置和使用 CodeGraph MCP 进行代码索引、调用链追踪和影响分析 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path codegraph-guide` |
 | `project-context-manager` | 管理跨会话项目上下文文档，帮助 Codex 维护 AGENTS.md 和 docs/codex 交接资料 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path project-context-manager` |
+| `skill-optimizer` | 审查并优化现有 skill 的触发语义、工作流、确认门槛、资源组织、安全边界与文档分层 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path skill-optimizer` |
 | `gsap-core` | 使用 GSAP 核心 API 编写基础 tween、缓动、stagger、响应式和 reduced-motion 动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-core` |
 | `gsap-timeline` | 编排多步骤动画、时间线、label、嵌套 timeline 和播放控制 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-timeline` |
 | `gsap-scrolltrigger` | 实现 ScrollTrigger 滚动触发、pin、scrub、视差和横向滚动动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-scrolltrigger` |
@@ -57,6 +58,13 @@ My-Skill-Project/
     SKILL.md
     agents/
       openai.yaml
+  skill-optimizer/
+    README.md
+    SKILL.md
+    references/
+      review-checklist.md
+      skill-creation-best-practices-claude-api-docs.md
+      skill-design-review-framework.md
   gsap-skills/
     gsap-core/
       SKILL.md
