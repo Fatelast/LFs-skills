@@ -22,6 +22,7 @@
 | `project-context-manager` | 管理跨会话项目上下文文档，帮助 Codex 维护 AGENTS.md 和 docs/codex 交接资料 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path project-context-manager` |
 | `skill-optimizer` | 审查并优化现有 skill 的触发语义、工作流、确认门槛、资源组织、安全边界与文档分层 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path skill-optimizer` |
 | `stock-short-term-analysis` | 结合数据可信度、市场情绪、板块强弱、参与者结构、财报公告和技术量价，分析 A 股短线机会与风险 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path stock-short-term-analysis` |
+| `premarket-trend-frontline-stock-selection` | 根据 A 股盘前行情、板块强弱、公告财报、资金参与者线索和竞价条件，筛选短线观察池并制定盘中确认条件 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path premarket-trend-frontline-stock-selection` |
 | `gsap-core` | 使用 GSAP 核心 API 编写基础 tween、缓动、stagger、响应式和 reduced-motion 动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-core` |
 | `gsap-timeline` | 编排多步骤动画、时间线、label、嵌套 timeline 和播放控制 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-timeline` |
 | `gsap-scrolltrigger` | 实现 ScrollTrigger 滚动触发、pin、scrub、视差和横向滚动动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-scrolltrigger` |
@@ -67,6 +68,8 @@ LFs-skills/
       skill-creation-best-practices-claude-api-docs.md
       skill-design-review-framework.md
   stock-short-term-analysis/
+    SKILL.md
+  premarket-trend-frontline-stock-selection/
     SKILL.md
   gsap-skills/
     gsap-core/
