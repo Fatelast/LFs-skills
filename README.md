@@ -1,4 +1,4 @@
-# My Skill Project
+﻿# LFs Skills
 
 一个用于存放个人 Codex skills 的仓库。
 
@@ -15,26 +15,26 @@
 
 | Skill | 用途 | 安装命令 |
 |---|---|---|
-| `miniprogram-prototype-designer` | 将需求文本整理成小程序 / H5 / 移动端原型、页面结构、流程和开发导向输出 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path miniprogram-prototype-designer` |
-| `icon-generator` | 根据自然语言生成 SVG 图标，以及 React / Vue 图标组件 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path icon-generator` |
-| `find-skills` | 帮助 Agent 发现、筛选并安装适合当前任务的新 skills | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path find-skills` |
-| `codegraph-guide` | 指导 Codex 配置和使用 CodeGraph MCP 进行代码索引、调用链追踪和影响分析 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path codegraph-guide` |
-| `project-context-manager` | 管理跨会话项目上下文文档，帮助 Codex 维护 AGENTS.md 和 docs/codex 交接资料 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path project-context-manager` |
-| `skill-optimizer` | 审查并优化现有 skill 的触发语义、工作流、确认门槛、资源组织、安全边界与文档分层 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path skill-optimizer` |
-| `stock-short-term-analysis` | 结合数据可信度、市场情绪、板块强弱、参与者结构、财报公告和技术量价，分析 A 股短线机会与风险 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path stock-short-term-analysis` |
-| `gsap-core` | 使用 GSAP 核心 API 编写基础 tween、缓动、stagger、响应式和 reduced-motion 动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-core` |
-| `gsap-timeline` | 编排多步骤动画、时间线、label、嵌套 timeline 和播放控制 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-timeline` |
-| `gsap-scrolltrigger` | 实现 ScrollTrigger 滚动触发、pin、scrub、视差和横向滚动动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-scrolltrigger` |
-| `gsap-plugins` | 使用 GSAP 插件，如 Flip、Draggable、SplitText、MorphSVG、DrawSVG、ScrollTo 和 MotionPath | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-plugins` |
-| `gsap-utils` | 使用 gsap.utils 进行 clamp、mapRange、normalize、random、snap、toArray、wrap 等辅助处理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-utils` |
-| `gsap-react` | 在 React / Next.js 中使用 GSAP，处理 useGSAP、refs、作用域和卸载清理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-react` |
-| `gsap-performance` | 优化 GSAP 动画性能，减少卡顿、布局抖动和不必要的重绘 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-performance` |
-| `gsap-frameworks` | 在 Vue、Nuxt、Svelte、SvelteKit 等非 React 框架中使用 GSAP 并处理生命周期清理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/My-Skill-Project --path gsap-skills/gsap-frameworks` |
+| `miniprogram-prototype-designer` | 将需求文本整理成小程序 / H5 / 移动端原型、页面结构、流程和开发导向输出 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path miniprogram-prototype-designer` |
+| `icon-generator` | 根据自然语言生成 SVG 图标，以及 React / Vue 图标组件 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path icon-generator` |
+| `find-skills` | 帮助 Agent 发现、筛选并安装适合当前任务的新 skills | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path find-skills` |
+| `codegraph-guide` | 指导 Codex 配置和使用 CodeGraph MCP 进行代码索引、调用链追踪和影响分析 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path codegraph-guide` |
+| `project-context-manager` | 管理跨会话项目上下文文档，帮助 Codex 维护 AGENTS.md 和 docs/codex 交接资料 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path project-context-manager` |
+| `skill-optimizer` | 审查并优化现有 skill 的触发语义、工作流、确认门槛、资源组织、安全边界与文档分层 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path skill-optimizer` |
+| `stock-short-term-analysis` | 结合数据可信度、市场情绪、板块强弱、参与者结构、财报公告和技术量价，分析 A 股短线机会与风险 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path stock-short-term-analysis` |
+| `gsap-core` | 使用 GSAP 核心 API 编写基础 tween、缓动、stagger、响应式和 reduced-motion 动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-core` |
+| `gsap-timeline` | 编排多步骤动画、时间线、label、嵌套 timeline 和播放控制 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-timeline` |
+| `gsap-scrolltrigger` | 实现 ScrollTrigger 滚动触发、pin、scrub、视差和横向滚动动画 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-scrolltrigger` |
+| `gsap-plugins` | 使用 GSAP 插件，如 Flip、Draggable、SplitText、MorphSVG、DrawSVG、ScrollTo 和 MotionPath | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-plugins` |
+| `gsap-utils` | 使用 gsap.utils 进行 clamp、mapRange、normalize、random、snap、toArray、wrap 等辅助处理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-utils` |
+| `gsap-react` | 在 React / Next.js 中使用 GSAP，处理 useGSAP、refs、作用域和卸载清理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-react` |
+| `gsap-performance` | 优化 GSAP 动画性能，减少卡顿、布局抖动和不必要的重绘 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-performance` |
+| `gsap-frameworks` | 在 Vue、Nuxt、Svelte、SvelteKit 等非 React 框架中使用 GSAP 并处理生命周期清理 | `python C:\Users\MSI\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo Fatelast/LFs-skills --path gsap-skills/gsap-frameworks` |
 
 ## 目录结构
 
 ```text
-My-Skill-Project/
+LFs-skills/
   README.md
   miniprogram-prototype-designer/
     SKILL.md
@@ -122,3 +122,4 @@ new-skill/
 ```
 
 然后在根 `README.md` 的 Skills 表格中补一行安装入口即可。
+
